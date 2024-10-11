@@ -9,4 +9,8 @@ It is a simple web page to analyze your scores and show your results in five dif
    <img src="./Capture2.PNG" alt="pic">
 </div>
 
+<hr/>
+
+### Best regards :heart:
+
 
