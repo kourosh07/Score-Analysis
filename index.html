@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Score Analysis</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Score Analysis</h1>
+      <div class="input-container">
+        <input type="number" id="score1" placeholder="Score 1" max="100" min="0" />
+        <input type="number" id="score2" placeholder="Score 2" max="100" min="0" />
+        <input type="number" id="score3" placeholder="Score 3" max="100" min="0" />
+        <input type="number" id="score4" placeholder="Score 4" max="100" min="0" />
+        <input type="number" id="score5" placeholder="Score 5" max="100" min="0" />
+        <button onclick="analyzeScores()">Analyze Scores</button>
+      </div>
+      <div class="chart-container">
+        <canvas id="lineChart"></canvas><hr id="hr1">
+        <canvas id="barChart"></canvas><hr id="hr2">
+        <canvas id="radarChart"></canvas><hr id="hr3">
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
